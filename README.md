@@ -1,38 +1,13 @@
-# spring-boot-app-template
+# site-scan
 
-[![Build](https://github.com/yonatankarp/spring-boot-app-template/actions/workflows/ci.yml/badge.svg)](https://github.com/yonatankarp/spring-boot-app-template/actions/workflows/ci.yml)
-[![Linters](https://github.com/yonatankarp/spring-boot-app-template/actions/workflows/linting.yml/badge.svg)](https://github.com/yonatankarp/spring-boot-app-template/actions/workflows/linting.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_spring-boot-app-template&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=yonatankarp_spring-boot-app-template)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_spring-boot-app-template&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=yonatankarp_spring-boot-app-template)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_spring-boot-app-template&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=yonatankarp_spring-boot-app-template)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_spring-boot-app-template&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=yonatankarp_spring-boot-app-template)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_spring-boot-app-template&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=yonatankarp_spring-boot-app-template)
+[![Build](https://github.com/yonatankarp/site-scan/actions/workflows/ci.yml/badge.svg)](https://github.com/yonatankarp/site-scan/actions/workflows/ci.yml)
+[![Linters](https://github.com/yonatankarp/site-scan/actions/workflows/linting.yml/badge.svg)](https://github.com/yonatankarp/site-scan/actions/workflows/linting.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_site-scan&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=yonatankarp_site-scan)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_site-scan&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=yonatankarp_site-scan)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_site-scan&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=yonatankarp_site-scan)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_site-scan&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=yonatankarp_site-scan)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=yonatankarp_site-scan&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=yonatankarp_site-scan)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## Purpose
-
-This is a template to fast and easily bootstrap new spring boot web
-applications that including full build based on Gradle, CI based on GitHub
-actions, and containers based on Docker
-
-## What's inside
-
-The template is a working application with a minimal setup. It contains:
-
-- application skeleton
-- setup script to prepare project
-- common plugins and libraries
-- docker setup
-- code quality tools already set up
-- integration with GitHub Actions
-- integration with Dependabot
-- integration with SonarCloudA
-- MIT license and contribution information
-
-## Setup
-
-Located in `./bin/init.sh`. Simply run and follow the explanation how to
-execute it. This script will self-destroy itself when finished.
 
 ## Getting Started
 
@@ -86,7 +61,7 @@ For Apple M1 processor run the following instead:
 DOCKER_BUILDKIT=0 docker compose build
 ```
 
-Run the distribution (created in `spring-boot-app-template/build/install/spring-boot-app-template`
+Run the distribution (created in `site-scan/build/install/site-scan`
 directory) by executing the following command:
 
 ```shell

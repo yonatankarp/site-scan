@@ -1,7 +1,7 @@
 FROM eclipse-temurin:17-jre-alpine
 
 ENV APP_BASE="/home"
-ENV APP_NAME="spring-boot-app-template"
+ENV APP_NAME="site-scan"
 ENV SERVER_PORT=8080
 
 EXPOSE ${SERVER_PORT}

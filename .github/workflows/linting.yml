@@ -35,9 +35,9 @@ jobs:
         with:
           filters: |
             source_code:
-              - 'spring-boot-app-template/src/**'
-              - 'spring-boot-app-template/Dockerfile'
-              - 'spring-boot-app-template/build.gradle'
+              - 'site_scan/src/**'
+              - 'site_scan/Dockerfile'
+              - 'site_scan/build.gradle'
               - 'build.gradle'
             docs:
               - README.md

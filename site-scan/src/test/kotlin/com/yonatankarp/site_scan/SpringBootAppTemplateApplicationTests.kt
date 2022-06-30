@@ -1,4 +1,4 @@
-package com.yonatankarp.springbootapptemplate
+package com.yonatankarp.site_scan
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

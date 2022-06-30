@@ -1,8 +1,8 @@
 plugins {
     id("jacoco")
     id("pmd")
-    id("spring-boot-app-template.java-conventions")
-    id("spring-boot-app-template.code-metrics")
+    id("site-scan.java-conventions")
+    id("site-scan.code-metrics")
     id("com.diffplug.spotless") version "6.7.2" apply true
     id("org.springframework.boot") version "2.7.1" apply false
     id("io.spring.dependency-management") version "1.0.11.RELEASE" apply false
@@ -19,7 +19,7 @@ subprojects {
         mavenCentral()
         maven { url = uri("https://packages.confluent.io/maven/") }
         maven {
-            url = uri("https://maven.pkg.github.com/yonatankarp/spring-boot-app-template")
+            url = uri("https://maven.pkg.github.com/yonatankarp/site-scan")
             credentials {
                 username = findProperty("gpr.user")?.toString() ?: System.getenv("GITHUB_ACTOR")
                 password = findProperty("gpr.key")?.toString() ?: System.getenv("GITHUB_TOKEN")
